@@ -1,0 +1,41 @@
+querySelector = pega elementos da tela 
+	no navegador aperte F12 - na aba Console
+	 -- document.querySelector('img')
+	 #pega primeiro elemento (tag img no exemplo)
+	 #querySelectorAll -- pega todas as imagens 
+
+document.getElementsByTagName('<tag HTML que vc quer pegar EX.:img>')
+
+createElement = cria elementos na tela 
+
+appendChild =  adiciona o elemento criado por createElement a algum pai
+
+EVENTO{
+	 blur = aviso ao tentar sair 
+	mouseover = evento ao passar o mouse
+	click = evento ao clicar
+}
+
+
+--------------------
+CSS 
+
+
+margin : 0px auto; -> vale tanto pra esquerda quanto pra direita (esq: 0px e dir: auto nesse exemplo), pode ser pros 4 lados tbm segue a ordem do relógio hehehe :)
+	------------------
+|						|
+|						|
+|	margin				|
+|						|
+|						|
+	------------------
+
+	display: oculta (none) elementos da tela, mostra (block)
+
+	cursor: aponta o acesso a algum elemento - mostra que é clicável, arratável etc
+
+	overflow: cria comportamento para sobra de algum elemento 
+
+	justify-content:center 
+					flex-end		 o pai tem que ser FLEX!
+					flex-start
